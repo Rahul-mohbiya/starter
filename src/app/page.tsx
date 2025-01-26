@@ -1,101 +1,123 @@
+"use client"
 import Image from "next/image";
+
+
 
 export default function Home() {
   return (
     <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
       <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
+        <div className="hero">
+        <img
+          className="png"
+          src="Rectangle 560.png"
+          alt=""
+          width={150}
+          height={458}
+         
         />
-        <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-semibold">
-              src/app/page.tsx
-            </code>
-            .
-          </li>
-          <li>Save and see your changes instantly.</li>
-        </ol>
+        <div className="hero-left ">
+        <ol >Home / Website development / Starter Website Development Package 
+          <li className="hero1">Website development</li> </ol>
 
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
+        <h1 className="heading">Starter Web Package</h1>
+         <div className="text-lg">
+  <span className="cutamt">₹9,999.00</span>
+  <span className="font-bold text-green-600">₹7,999.00</span>
+</div>
+
+<p className="p1" >Embark on your online journey with simplicity and impact. Our <br/> 
+Starter Web Package is perfect for personal portfolios and small <br/>
+businesses venturing into the digital space. For just ₹7,999<br/>
+ (discounted from ₹9,999), you get a 1-page website with responsive<br/>
+  design, basic SEO optimization, contact form integration, and social<br/>
+   media linkage. Take advantage of this limited-time offer and establish<br/>
+    your captivating online presence today!</p>
+
+    const about=
+<div>
+      <div className="button">
+        <button className="btn">-</button>
+        <button className="btn">1</button>
+        <button className="btn">+</button>
+        <button className="btn-left"> Add to basket </button>
         </div>
-      </main>
-      <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
+        
+        
+  </div>
+</div>
+
+
+        </div>
+
+        
+<h1 className="line"></h1>
+
+        <h1 className="head">Description</h1>
+
+        <p className="p">Embark on your online journey with simplicity and impact. Our Starter Web Package is perfect for personal portfolios and small businesses venturing into<br/> 
+        the digital space. For just ₹7,999 (discounted from ₹9,999), you get a 1-page website with responsive design, basic SEO optimization, contact form <br/>integration, and social media linkage. Take advantage of this limited-time offer and establish your captivating online presence today!</p>
+        
+        <h1 className="head">Starter Website Development Package Key Features:</h1>
+<div className="features">
+1. Page Website:
+<p className="text">Create a concise yet compelling online presence with a single-page website that delivers your message effectively.</p>
+
+2. Responsive Design:
+<p className="text">Ensure your website looks stunning and functions seamlessly across various devices, providing a great user experience for your visitors.</p>
+
+3. Basic SEO Optimization:
+<p className="text">Lay the foundation for online visibility with basic Search Engine Optimization (SEO) to help your website rank better on search engines.</p>
+
+4. Contact Form Integration:
+<p className="text">Enable easy communication with your audience by integrating a contact form, allowing visitors to reach out to you effortlessly.</p>
+
+5. Social Media Integration:
+<p className="text">Leverage the power of social media by seamlessly integrating your social profiles with your website, fostering engagement and expanding your online<br/> presence.</p>
+
+Limited-Time Offer: ₹7,999 (Original Price: ₹9,999) – $99
+<p className="text"> Don’t miss out on this incredible offer to establish your online presence at a discounted rate. Take the first step towards a captivating website with our<br/> Starter Web Package today!</p>
+</div>
+        <h1 className="head1"> Related products</h1>
+        <div className="card">
+          <div className="card-pannel"><img
+          className="footer"
+          src="Rectangle 560.png"
+          alt=""
+          width={150}
+          height={458}
+        />
+          <h1>Business Web Package</h1>
+      <ol>₹19,999.00</ol>
+      <button className="endbtn">Read more</button>
+          </div>
+
+          <div className="card-pannel"><img
+          className="footer"
+          src="Rectangle 560.png"
+          alt=""
+          width={150}
+          height={458}
+       />
+          <h1>Business Web Package</h1>
+      <ol >₹19,999.00</ol>
+      <button className="endbtn">Read more</button>
+          </div>
+
+          <div className="card-pannel"><img
+          className="footer"
+          src="Rectangle 560.png"
+          alt=""
+          width={150}
+          height={458}
+         />
+          <h1>Business Web Package</h1>
+      <ol>₹19,999.00</ol>
+      <button className="endbtn">Read more</button>
+          </div>
+        </div>
+        
+        </main>
     </div>
   );
 }
